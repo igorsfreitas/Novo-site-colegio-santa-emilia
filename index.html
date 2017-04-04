@@ -1,0 +1,634 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<link rel="apple-touch-icon" sizes="76x76" href="assets/img/apple-icon.png">
+	<link rel="icon" type="image/png" href="assets/img/favicon.png">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+	<title>Colégio Santa Emília</title>
+
+	<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" />
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
+
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="assets/css/material-kit.css" rel="stylesheet"/>
+
+    <link rel="stylesheet" type="text/css" href="assets/css/calendar2.css" />
+  	<link rel="stylesheet" type="text/css" href="assets/css/custom_2.css" />
+
+    <link href="assets/css/styles.css" rel="stylesheet" />
+</head>
+
+<body class="index-page">
+	<div id="fb-root"></div>
+	<script>(function(d, s, id) {
+	  var js, fjs = d.getElementsByTagName(s)[0];
+	  if (d.getElementById(id)) return;
+	  js = d.createElement(s); js.id = id;
+	  js.src = "//connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v2.4&appId=510741465712246";
+	  fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));</script>
+
+	<nav class="navbar navbar-fixed-top">
+		<div class="container">
+	        <div class="navbar-header">
+		    	<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navigation-index">
+		        	<span class="sr-only">Toggle navigation</span>
+		        	<span class="icon-bar"></span>
+		        	<span class="icon-bar"></span>
+		        	<span class="icon-bar"></span>
+		    	</button>
+		    	<a href="http://www.creative-tim.com">
+		        	<div class="logo-container">
+		                <div class="logo">
+		                    <img src="assets/img/logo.png" alt="Creative Tim Logo" rel="tooltip" title="<b>Colégio Santa Emília</b>" data-placement="bottom" data-html="true">
+		                </div>
+		                <!-- <div class="brand">
+		                    Colégio Santa Emília
+		                </div> -->
+
+
+					</div>
+		      	</a>
+		    </div>
+
+		    <div class="collapse navbar-collapse" id="navigation-index">
+		    	<ul class="nav navbar-nav navbar-right">
+					<li>
+						<a href="#" class="btn btn-simple dropdown-toggle" data-toggle="dropdown">
+					    	<i class="material-icons">home</i>Institucional
+					    	<b class="caret"></b>
+						</a>
+						<ul class="dropdown-menu">
+							<li><a href="#">Corpo Docente</a></li>
+							<li class="divider"></li>
+							<li><a href="#">A escola</a></li>
+							<li class="divider"></li>
+							<li><a href="#">Regimento Escolar</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="#" class="btn btn-simple dropdown-toggle" data-toggle="dropdown">
+					    	<i class="material-icons">school</i>Ensino
+					    	<b class="caret"></b>
+						</a>
+						<ul class="dropdown-menu">
+							<li><a href="#">Infantil</a></li>
+							<li class="divider"></li>
+							<li><a href="#">Fundamental</a></li>
+							<li class="divider"></li>
+							<li><a href="#">Ensino Médio</a></li>
+							<li class="divider"></li>
+							<li><a href="#">Especial</a></li>
+							<li class="divider"></li>
+							<li><a href="#">Horário Integral</a></li>
+							<li class="divider"></li>
+							<li><a href="#">Relação de Livros</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="http://www.creative-tim.com/product/material-kit" target="_blank" class="btn">
+							<i class="material-icons">favorite_border</i> Religião
+						</a>
+					</li>
+					<li>
+						<a href="#" class="btn btn-simple dropdown-toggle" data-toggle="dropdown">
+					    	<i class="material-icons">check</i>Projetos
+					    	<b class="caret"></b>
+						</a>
+						<ul class="dropdown-menu">
+							<li><a href="#">Pedagógicos</a></li>
+							<li class="divider"></li>
+							<li><a href="#">Sociais</a></li>
+							<li class="divider"></li>
+							<li><a href="#">Transportes</a></li>
+							<li class="divider"></li>
+							<li><a href="#">Robótica CSE</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="#" class="btn btn-simple dropdown-toggle" data-toggle="dropdown">
+					    	<i class="material-icons">account_balance</i>Infraestrutura
+					    	<b class="caret"></b>
+						</a>
+						<ul class="dropdown-menu">
+							<li><a href="#">Unidade I</a></li>
+							<li class="divider"></li>
+							<li><a href="#">Unidade II</a></li>
+							<li class="divider"></li>
+							<li><a href="#">Anexo Unidade II</a></li>
+							<li class="divider"></li>
+							<li><a href="#">Unidade Cordeiro</a></li>
+						</ul>
+					</li>
+					<!-- <li>
+						<a href="http://www.creative-tim.com/product/material-kit" target="_blank" class="btn">
+							<i class="material-icons">cloud_download</i> Mídia
+						</a>
+					</li> -->
+					<li>
+						<a href="#" class="btn btn-simple dropdown-toggle" data-toggle="dropdown">
+					    	<i class="material-icons">directions_bike</i>Esportes
+					    	<b class="caret"></b>
+						</a>
+						<ul class="dropdown-menu">
+							<li><a href="#">Judô</a></li>
+							<li class="divider"></li>
+							<li><a href="#">Futsal</a></li>
+							<li class="divider"></li>
+							<li><a href="#">Basquete</a></li>
+							<li class="divider"></li>
+							<li><a href="#">Vôlei</a></li>
+							<li class="divider"></li>
+							<li><a href="#">Xadrez</a></li>
+							<li class="divider"></li>
+							<li>
+								<a href="#" style="background-color: #901319; cursor:default; color:white;"><i class="material-icons">local_laundry_service</i>Modalidades Artísticas
+					    		<b class="caret"></b></a>
+							</li>
+							<li class="divider"></li>
+							<li><a href="#">Dança</a></li>
+							<li class="divider"></li>
+							<li><a href="#">Música</a></li>
+							<li class="divider"></li>
+							<li><a href="#">Artes</a></li>
+						</ul>
+					</li>
+
+					<li>
+						<a href="#" class="btn btn-simple dropdown-toggle" data-toggle="dropdown">
+					    	<i class="material-icons">question_answer</i>Mídia
+					    	<b class="caret"></b>
+						</a>
+						<ul class="dropdown-menu">
+							<li><a href="#">Reportagens Escritas</a></li>
+							<li class="divider"></li>
+							<li><a href="#">Reportagens Televisivas</a></li>
+							<li class="divider"></li>
+							<li><a href="#">Galeria de Fotos</a></li>
+						</ul>
+					</li>
+
+
+					<!-- <li>
+						<a rel="tooltip" title="Follow us on Twitter" data-placement="bottom" href="https://twitter.com/CreativeTim" target="_blank" class="btn btn-simple">
+							<i class="fa fa-twitter"></i>
+						</a>
+					</li>
+					<li>
+						<a rel="tooltip" title="Like us on Facebook" data-placement="bottom" href="https://www.facebook.com/CreativeTim" target="_blank" class="btn btn-simple">
+							<i class="fa fa-facebook-square"></i>
+						</a>
+					</li>
+					<li>
+						<a rel="tooltip" title="Follow us on Instagram" data-placement="bottom" href="https://www.instagram.com/CreativeTimOfficial" target="_blank" class="btn btn-simple">
+							<i class="fa fa-instagram"></i>
+						</a>
+					</li> -->
+
+		    	</ul>
+		    </div>
+		</div>
+	</nav>
+
+
+<div class="wrapper">
+	<ul id="redesSociais">
+		<li><a href="https://www.facebook.com/CSE.UnidadeCordeiro" target="_blank"><i class="fa fa-facebook-square"></i></a></li>
+		<li><a href="https://twitter.com/cse_cordeiro" target="_blank"><i class="fa fa-twitter"></i></a></li>
+		<li><a href="https://www.instagram.com/csecordeiro/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+		<li><a href="https://www.youtube.com/user/cseunidadecordeiro" target="_blank"><i class="fa fa-youtube"></i></a></li>
+		<li><a href="#" target="_blank"><i class="fa fa-envelope"></i></a></li>
+	</ul>
+
+	<div class="main">
+		<div id="slider" class="container">
+			<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+				<div class="carousel slide" data-ride="carousel">
+
+					<!-- Indicators -->
+					<ol class="carousel-indicators">
+						<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+						<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+						<li data-target="#carousel-example-generic" data-slide-to="2"></li>
+					</ol>
+
+					<!-- Wrapper for slides -->
+					<div class="carousel-inner">
+						<div class="item active">
+							<img src="assets/img/bg2.jpg" class="img-responsive" alt="Awesome Image">
+							<!-- <div class="carousel-caption">
+								<h4><i class="material-icons">location_on</i> Yellowstone National Park, United States</h4>
+							</div> -->
+						</div>
+						<div class="item">
+							<img src="assets/img/bg3.png" class="img-responsive" alt="Awesome Image">
+							<!-- <div class="carousel-caption">
+								<h4><i class="material-icons">location_on</i> Somewhere Beyond, United States</h4>
+							</div> -->
+						</div>
+						<div class="item">
+							<img src="assets/img/bg4.png" class="img-responsive" alt="Awesome Image">
+							<!-- <div class="carousel-caption">
+								<h4><i class="material-icons">location_on</i> Yellowstone National Park, United States</h4>
+							</div> -->
+						</div>
+					</div>
+
+					<!-- Controls -->
+					<a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+						<i class="material-icons">keyboard_arrow_left</i>
+					</a>
+					<a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+						<i class="material-icons">keyboard_arrow_right</i>
+					</a>
+				</div>
+			</div>
+		</div>
+
+		<div id="noticias" class="container">
+			<div class="col-md-12">
+					<div class="card card-nav-tabs">
+						<div class="col-md-12">
+							<div class="header header-primary titulo">
+									<h3 class="text-center">
+										ÚLTIMAS NOTÍCIAS
+									</h3>
+							</div>
+						</div>
+						<div class="col-md-4 noticia">
+							<a href="noticia01.html">
+								<img src="assets/img/noticias/01.jpg" height="638" width="960" class="img-rounded img-responsive" alt="">
+								<span class="label label-default">Default</span>
+								<h4>Provas da Unidade </h4>
+								<span class="data">28 ABR 2016</span>
+								<p class="resumo">Essa semana nossos alunos estão realizando as prova da unidade. Os estudantes do 2º ano do Ensino Fundamental ao 2º ano do ensino médio realizam os exames que começaram segunda-feira... ‪</p>
+							</a>
+						</div>
+						<div class="col-md-4 noticia">
+							<a href="#">
+								<img src="assets/img/noticias/02.jpg" class="img-rounded img-responsive" alt="">
+								<span class="label label-default">Default</span>
+								<h4>Xadrez Humano</h4>
+								<span class="data">28 ABR 2016</span>
+								<p class="resumo">Na última semana nossos alunos do 1º ano do Ensino Fundamental aprenderam xadrez de uma forma diferente. Durante a aula da Professora Jaqueline Almeida, os alunos se vestiram como ...</p>
+							</a>
+						</div>
+						<div class="col-md-4 noticia">
+							<a href="#">
+								<img src="assets/img/noticias/02.jpg" class="img-rounded img-responsive" alt="">
+								<span class="label label-default">Default</span>
+								<h4>Dia do Índio</h4>
+								<span class="data">28 ABR 2016</span>
+								<p class="resumo">Ontem no Dia do Índio nossos alunos da Educação Infantil começaram as aulas de uma forma diferente. As crianças aprenderam brincando um pouco mais sobre a cultura indígena.</p>
+							</a>
+						</div>
+						<div class="col-md-4 noticia">
+							<a href="#">
+								<span class="label label-default">Default</span>
+								<h5>Missa - Catequese </h5>
+								<span class="data">28 ABR 2016</span>
+								<p class="resumo">Na última sexta-feira nossos alunos da catequese participaram de uma missa no auditório do colégio. A cerimônia foi celebrada pelo Padre Roberto, da Paróquia da Iputinga. </p>
+							</a>
+						</div>
+						<div class="col-md-4 noticia">
+							<a href="#">
+								<span class="label label-default">Default</span>
+								<h5>Dia do Livro Infantil</h5>
+								<span class="data">28 ABR 2016</span>
+								<p class="resumo">Em comemoração ao Dia do Livro Infantil nossas professoras da Educação Infantil fizeram uma encenação da obra do escritor Monteiro Lobato, "Sítio do Picapau Amarelo".</p>
+							</a>
+						</div>
+						<div class="col-md-4 noticia">
+							<a href="#">
+								<span class="label label-default">Default</span>
+								<h5>Laboratório – Misturas Homogêneas e Heterogêneas</h5>
+								<span class="data">28 ABR 2016</span>
+								<p class="resumo">Ontem nossos alunos do 8º ano do Ensino Fundamental tiveram aula no laboratório com o Professor Fernando Beltrão.</p>
+							</a>
+						</div>
+
+						<div class="col-md-12">
+							<a href="#">
+								<h5 class="text-right">VER TODAS AS NOTÍCIAS</h5>
+							</a>
+						</div>
+					</div>
+				</div>
+		</div>
+
+		<div id="areaAluno" class="container">
+			<div class="row">
+				<div class="col-md-8">
+					<div class="card card-nav-tabs">
+						<div class="col-md-12">
+							<div class="header header-primary titulo">
+								<div class="col-md-6">
+									<h3 class="text-center">
+										ÁREA DO ALUNO
+									</h3>
+								</div>
+
+								<div class="col-md-6">
+									<h5> Acesse agora mesmo a área do aluno, um canal de comunicação simples e objetivo para os alunos <b>CSE-Cordeiro</b></h5>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-md-12 areaAluno">
+							<div class="col-md-offset-1 col-md-3 col-xs-12">
+								<ul class="nav nav-pills nav-pills-primary center-block" role="tablist">
+									<li class="active">
+										<a href="#schedule" role="tab" data-toggle="tab">
+											<i class="material-icons">perm_contact_calendar</i>
+											Calendário<br />CSE
+										</a>
+									</li>
+								</ul>
+							</div>
+
+							<div class="col-md-3 col-xs-12">
+								<ul class="nav nav-pills nav-pills-primary center-block" role="tablist">
+									<li class="active">
+										<a href="#schedule" role="tab" data-toggle="tab">
+											<i class="material-icons">assignment</i>
+											Circulares e Mensagens
+										</a>
+									</li>
+								</ul>
+							</div>
+
+							<div class="col-md-3 col-xs-12">
+								<ul class="nav nav-pills nav-pills-primary center-block" role="tablist">
+									<li class="active">
+										<a href="#schedule" role="tab" data-toggle="tab">
+											<i class="material-icons">check_box</i>
+											provas e <br />gabaritos
+										</a>
+									</li>
+								</ul>
+							</div>
+
+							<div class="col-md-offset-1 col-md-3 col-xs-12">
+								<ul class="nav nav-pills nav-pills-primary center-block" role="tablist">
+									<li class="active">
+										<a href="#schedule" role="tab" data-toggle="tab">
+											<i class="material-icons">school</i>
+											portal do aluno (siges)
+										</a>
+									</li>
+								</ul>
+							</div>
+
+							<div class="col-md-3 col-xs-12">
+								<ul class="nav nav-pills nav-pills-primary center-block" role="tablist">
+									<li class="active">
+										<a href="#schedule" role="tab" data-toggle="tab">
+											<i class="material-icons">local_library</i>
+											portal do professor (siges)
+										</a>
+									</li>
+								</ul>
+							</div>
+
+							<div class="col-md-3 col-xs-12">
+								<ul class="nav nav-pills nav-pills-primary center-block" role="tablist">
+									<li class="active">
+										<a href="#schedule" role="tab" data-toggle="tab">
+											<i class="material-icons">share</i>
+											portal dos pais / responsáveis
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+
+					<div id="calendarioHome" class="card card-nav-tabs">
+						<div class="col-md-12">
+							<div class="header header-primary titulo">
+								<div class="col-md-12">
+									<h3 class="text-center">
+										CALENDÁRIO CSE
+									</h3>
+								</div>
+								<div class="col-md-12">
+									<div class="custom-calendar-wrap">
+							            <div id="custom-inner" class="custom-inner">
+							              <div class="custom-header clearfix">
+							                <nav>
+							                  <span id="custom-prev" class="custom-prev"></span>
+							                  <span id="custom-next" class="custom-next"></span>
+							                </nav>
+							                <h2 id="custom-month" class="custom-month"></h2>
+							                <h3 id="custom-year" class="custom-year"></h3>
+							              </div>
+							              <div id="calendar" class="fc-calendar-container"></div>
+							            </div>
+							        </div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+				</div>
+				<div class="col-md-4">
+					<div class="card card-nav-tabs">
+						<div class="col-md-12">
+							<div class="header header-primary titulo">
+									<h3 class="text-center">
+										REDES SOCIAIS
+									</h3>
+							</div>
+							<div class="col-md-12 col-sm-6">
+								<h5 class="text-center">FACEBOOK</h5>
+								<div class="fb-page" data-href="https://www.facebook.com/CSE.UnidadeCordeiro/?ref=ts&amp;fref=ts" data-height="350" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true" data-show-posts="true"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/vaporcomedoria?ref=ts&amp;fref=ts"><a href="https://www.facebook.com/CSE.UnidadeCordeiro/?ref=ts&amp;fref=ts">Vapor Comedoria</a></blockquote></div></div>
+							</div>
+
+							<!-- <div class="col-md-12 col-sm-6">
+								<a class="twitter-timeline" data-dnt="true" href="https://twitter.com/CSE_Cordeiro" data-widget-id="726549443017854976">Tweets de @CSE_Cordeiro</a>
+								<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+							</div> -->
+
+							<div class="col-md-12">
+								<h5 class="text-center">INSTAGRAM</h5>
+								<script src="//lightwidget.com/widgets/lightwidget.js"></script><iframe src="//lightwidget.com/widgets/7d23907f840d5e289a638e2562a2b9cc.html" id="lightwidget_7d23907f84" name="lightwidget_7d23907f84"  scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width: 100%; border: 0; overflow: hidden;"></iframe>
+							</div>
+
+							<div class="col-md-12">
+								<h5 class="text-center">NEWSLETTER</h5>
+								<p class="text-center">Cadastre-se em nosso informativo e receba nossas novidades em seu e-mail.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-2">
+					<img src="assets/img/logoGrande.png" class="img-responsive" alt="">
+				</div>
+				<div class="col-md-8">
+					<ul>
+						<li>
+							<h5>
+								UNIDADE I - <small>Avenida Fagundes Varela, 375 - 53140-080 - Jardim Atlântico - Olinda/PE - 81 3432.5077</small>
+							</h5>
+							<p>C.N.P.J: 08.961.500/0001-00</p>
+						</li>
+
+						<li>
+							<h5>
+								UNIDADE II - <small>Rua Marfim, 375 - 53140-280 - Jardim Atlântico - Olinda/PE - 81 3491.3416</small>
+							</h5>
+							<p>C.N.P.J: 04.255.151/0001-41</p>
+						</li>
+
+						<li>
+							<h5>
+								UNIDADE III - <small>Rua Aldemar Tavares, 25 - 50630-660 - Cordeiro - Recife/PE - 81 3445.0103</small>
+							</h5>
+							<p>C.N.P.J: 13.407.723/0001-51</p>
+						</li>
+					</ul>
+				</div>
+				<div class="col-md-2" id="logoBB">
+					<a href="https://www.facebook.com/profile.php?id=475303759248435&fref=ts" target="_blank">
+						<img src="assets/img/logoBB.png" class="img-responsive" alt="">
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+</body>
+
+	<!--   Core JS Files   -->
+	<script src="assets/js/jquery.min.js" type="text/javascript"></script>
+	<script src="assets/js/bootstrap.min.js" type="text/javascript"></script>
+	<script src="assets/js/material.min.js"></script>
+
+	<!--  Plugin for the Sliders, full documentation here: http://refreshless.com/nouislider/ -->
+	<script src="assets/js/nouislider.min.js" type="text/javascript"></script>
+
+	<!--  Plugin for the Datepicker, full documentation here: http://www.eyecon.ro/bootstrap-datepicker/ -->
+	<script src="assets/js/bootstrap-datepicker.js" type="text/javascript"></script>
+
+	<!-- Control Center for Material Kit: activating the ripples, parallax effects, scripts from the example pages etc -->
+	<script src="assets/js/material-kit.js" type="text/javascript"></script>
+	<script>
+		$('.carousel').carousel('cycle');
+	</script>
+
+	<!-- CALENDÁRIO -->
+
+	<script type="text/javascript" src="assets/js/jquery.calendario.js"></script>
+	<script type="text/javascript">
+		var codropsEvents = {
+
+
+		    // maio
+		    '05-01-2016' : '<a>Feriado - Dia do trabalho</a>',
+
+		    // julho
+		    '07-01-2016' : '<a>Dia da cidadania</a>',
+
+		    // Setembro
+		    '09-07-2016' : '<a>Feriado - Independência do Brasil</a>',
+
+		    // Outubro
+		    '10-12-2016' : '<a>Dia de Nossa Senhora Aparecida/ Dia das Crianças (Feriado)</a>',
+		    '10-15-2016' : '<a>Dia dos Professores (Feriado)</a>',
+
+		    // Novembro
+		    '11-02-2016' : '<a>Dia de Finados (Feriado)</a>',
+
+		    // Dezembro
+		    '12-24-2016' : '<a>Natal</a>',
+
+		    '05-19-2016' : '<a>Prova</a>',
+
+
+		};
+	</script>
+	<script src="assets/js/modernizr.custom.63321.js"></script>
+	<script type="text/javascript"> 
+	  $(function() {
+	    
+	    var transEndEventNames = {
+	      'WebkitTransition' : 'webkitTransitionEnd',
+	      'MozTransition' : 'transitionend',
+	      'OTransition' : 'oTransitionEnd',
+	      'msTransition' : 'MSTransitionEnd',
+	      'transition' : 'transitionend'
+	    },
+	    transEndEventName = transEndEventNames[ Modernizr.prefixed( 'transition' ) ],
+	    $wrapper = $( '#custom-inner' ),
+	    $calendar = $( '#calendar' ),
+	    cal = $calendar.calendario( {
+	      onDayClick : function( $el, $contentEl, dateProperties ) {
+
+	        if( $contentEl.length > 0 ) {
+	          showEvents( $contentEl, dateProperties );
+	        }
+
+	      },
+	      caldata : codropsEvents,
+	      displayWeekAbbr : true
+	    } ),
+	    $month = $( '#custom-month' ).html( cal.getMonthName() ),
+	    $year = $( '#custom-year' ).html( cal.getYear() );
+
+	    $( '#custom-next' ).on( 'click', function() {
+	      cal.gotoNextMonth( updateMonthYear );
+	    } );
+	    $( '#custom-prev' ).on( 'click', function() {
+	      cal.gotoPreviousMonth( updateMonthYear );
+	    } );
+
+	    function updateMonthYear() {        
+	      $month.html( cal.getMonthName() );
+	      $year.html( cal.getYear() );
+	    }
+
+	        // just an example..
+	        function showEvents( $contentEl, dateProperties ) {
+
+	          hideEvents();
+	          
+	          var $events = $( '<div id="custom-content-reveal" class="custom-content-reveal"><h4>Eventos do dia ' + dateProperties.day + ' ' + dateProperties.monthname + ', ' + dateProperties.year + '</h4></div>' ),
+	          $close = $( '<span class="custom-content-close"></span>' ).on( 'click', hideEvents );
+
+	          $events.append( $contentEl.html() , $close ).insertAfter( $wrapper );
+	          
+	          setTimeout( function() {
+	            $events.css( 'top', '0%' );
+	          }, 25 );
+
+	        }
+	        function hideEvents() {
+
+	          var $events = $( '#custom-content-reveal' );
+	          if( $events.length > 0 ) {
+	            
+	            $events.css( 'top', '100%' );
+	            Modernizr.csstransitions ? $events.on( transEndEventName, function() { $( this ).remove(); } ) : $events.remove();
+
+	          }
+
+	        }
+	        
+	      });
+	</script>
+
+</html>
